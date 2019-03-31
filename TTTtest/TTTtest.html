@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+	<link rel="stylesheet" type="text/css" href="/Users/IDM/Desktop/TTTtest/style.css" />
+</head>
+<body>
+
+    <div class="background h-100 d-flex flex-column align-items-center"> 
+
+        <div id="page1" class="my-5 w-50 container yellow-centered-box"> 
+
+            <div class="row my-2"><div class="col-12 text-center"><h1 id="gameTitle" class="display-4">Totally Trivial Trivia!</h1></div></div>
+
+            <div id="colBtnStart" class="row my-5">
+                <div class="col-12 text-center">
+                    <button id="btnStart" class="btn btn-lg w-50 p-4" type="button">PLAY</button>
+                </div>
+            </div>
+
+            <div id="quizContainer" class="row my-4">
+                <div id="quizCol" class="col-12 text-center">
+
+                    <h3 id="timer" class="my-4">Time Left <span id="timeRemain"></span>&nbsp;seconds&nbsp;<i class="fas fa-spinner fa-pulse"></i></h3>
+                    
+                    
+                    <button id="btnDone" class="btn btn-lg my-2 w-50 p-4" type="button">DONE</button>
+
+                </div>
+            </div>
+
+            <div id="resultContainer" class="row my-4">
+                <div class="col-12 text-center">
+                    <h3>Your Results!</h3>
+                    <h4>Correct Answers:&nbsp;<span id="correct"></span></h4>
+                    <h4>Incorrect Answers:&nbsp;<span id="incorrect"></span></h4>
+                    <h4>Unanswered:&nbsp;<span id="unanswered"></span></h4>
+                </div>
+            </div>
+
+        </div>
+
+    </div>        
+    
+
+    
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    
+     <!-- My script -->
+    <script src="/Users/IDM/Desktop/TTTtest/game.js"></script>
+</body>
+</html>

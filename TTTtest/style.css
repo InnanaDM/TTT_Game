@@ -1,0 +1,43 @@
+.background {
+    background-color: black;
+    background-image: url('/Users/IDM/Desktop/TTTtest/abstract1.jpg');
+    overflow-x: hidden;
+}
+
+#gameTitle {
+    color: #a1ecf4;
+    font-size: 70px;
+    font-family: fantasy;
+    
+}
+
+.yellow-centered-box {
+    background-color: black;
+    box-shadow: 0 0 20px green;
+}
+
+
+#quizContainer, #timer, #resultContainer {
+    display: none;
+}
+
+#btnStart {
+    background-color: gold;
+    border: solid 2px whitesmoke;
+    font-weight: bolder;
+    font-size: 28px;
+    color: black;
+}
+
+#btnDone {
+    border: solid 2px whitesmoke;
+    background-color: gold;
+    font-weight: bolder;
+    font-size: 28px;
+    color: black;
+}
+
+#btnDone:hover {
+    background-color: whitesmoke;
+    border: solid 2px gold;
+}
